@@ -14,6 +14,7 @@ body {
 
 header {
   background-image: url("../images/glasses-bg.png");
+  background-size: cover;
   height: 30rem;
   padding-top: 1rem;
 }
@@ -94,4 +95,41 @@ nav ul.truncated-menu {
 
 .service span {
   text-align: center;
+}
+
+.infos {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  margin: 3rem 2.5% 5rem 2.5%;
+  width: 35%;
+
+}
+
+.info h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: cadetblue;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1.25rem;
+  width: 10rem;
+}
+
+footer {
+  /*background-color: azure;*/
+  background-color: azure;
+  height: 100%;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+}
+
+.copyright img {
+  height: 1.5rem;
+  margin: 4rem 1rem 4rem 4rem;
 }
